@@ -1,0 +1,49 @@
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.cover-photo img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.profile-info {
+    position: relative;
+    top: -75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile-details h1 {
+    margin: 0;
+}
+
+.profile-actions button {
+    margin: 5px;
+}
+.cover-photo img {
+    width: 700px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+.profile-actions button {
+    margin-right: 10px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

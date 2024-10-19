@@ -1,0 +1,13 @@
+.profile-tabs {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-tabs a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #4267B2;
+}
